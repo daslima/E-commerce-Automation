@@ -42,3 +42,5 @@ O projeto ainda está em desenvolvimento e os próximos cenários serão voltada
 - [ ] Checkout
 - [ ] Finalização de compra
 - [ ] Cadastro
+
+Referência: http://automationpractice.com/index.php
