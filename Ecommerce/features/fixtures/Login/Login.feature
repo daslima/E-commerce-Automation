@@ -12,3 +12,10 @@ Funcionalidade: Realizar o login
         E preencho meu email "teste@mozej.com" e senha "teste123"  
         Quando eu clicar em entrar
         Entao irei visualizar uma mensagem "MY ACCOUNT"
+
+    @LoginInvalido
+    Cenario: Login invalido
+        Dado que eu esteja na tela de login
+        E preencho meu email "teste@mozej.com" e senha "teste"
+        Quando eu clicar em entrar
+        Entao irei visualizar uma mensagem "Authentication failed"
