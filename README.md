@@ -37,7 +37,7 @@ cucumber -t@nomeDaFlag
 
 O projeto ainda está em desenvolvimento e os próximos cenários serão voltadas nas seguintes tarefas:
 
-- [ ] Login
+- [X] Login
 - [ ] Adição de Produto ao carrinho
 - [ ] Checkout
 - [ ] Finalização de compra
