@@ -1,3 +1,5 @@
 #Login
+urlLogin: '?controller=authentication&back=my-account'
 emailLogin: '#email'
 passwordLogin: '#passwd'
+signInLogin: 'button btn btn-default button-medium'
