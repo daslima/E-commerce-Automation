@@ -3,7 +3,7 @@ class LoginPage  < Methods
     include Capybara::DSL
 
     def AccessLogin
-        visit('?controller=authentication&back=my-account')
+        visit(EL['urlLogin'])
     end
 
     def FillFields(email, password)
@@ -12,7 +12,7 @@ class LoginPage  < Methods
     end
 
     def ClickButton()
-        ClickButtonByClass('button btn btn-default button-medium')
+        ClickButtonByClass(EL['signInLogin'])
     end
 
     def AssertMessage(message)
