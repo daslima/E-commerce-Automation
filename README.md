@@ -1,18 +1,17 @@
 # Automação - Ecommerce
 ---
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
 
+## 💻 Pre-requisites
 
-## 💻 Pré-requisitos
+* [Ruby 3.1](https://rubyinstaller.org/downloads/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Chromedriver](https://chromedriver.chromium.org/downloads)
 
-* [Ruby 3.1](https://rubyinstaller.org/downloads/) - Linguagem de programação
-* [Visual Studio Code](https://code.visualstudio.com/download) - IDE
-* [Chromedriver](https://chromedriver.chromium.org/downloads) - Ferramenta que possibilita a comunicação do selenium com o Google Chrome
+## 🔧 Installation
 
-## 🔧 Instalação
-
-Abrir o terminal e executar os seguintes comandos:
+Open the terminal and run the following commands:
 
 ```
 mkdir automacao
@@ -22,25 +21,24 @@ cd /E-commerce-Automation/Ecommerce/
 bundle install
 ```
 
-## ⚙️ Executando os testes
+## ⚙️ Running the tests
 
-Para executar os testes, basta utilizar o comando 
+To run the tests, just use the command
 
 ```
 cucumber
 ```
 ou 
 ```
-cucumber -t@nomeDaFlag
+cucumber -t@nameFlag
 ```
-## 🚀  Ajustes e melhorias
+## 🚀  Adjustments and improvements
 
-O projeto ainda está em desenvolvimento e os próximos cenários serão voltadas nas seguintes tarefas:
+The project is still under development and the next scenarios will focus on the following tasks:
 
 - [X] Login
-- [ ] Adição de Produto ao carrinho
+- [ ] Adding Product to Cart
 - [ ] Checkout
-- [ ] Finalização de compra
-- [ ] Cadastro
+- [ ] Registration
 
-Referência: http://automationpractice.com/index.php
+Reference: http://automationpractice.com/index.php
