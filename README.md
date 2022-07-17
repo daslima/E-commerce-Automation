@@ -28,7 +28,7 @@ To run the tests, just use the command
 ```
 cucumber
 ```
-ou 
+or 
 ```
 cucumber -t@nameFlag
 ```
